@@ -23,4 +23,5 @@
    foaf:homepage <http://www.hannah-montana.com> ;
    foaf:knows <http://users.dcc.uchile.cl/~ahogan/foaf.ttl#ah> ;
    foaf:interest <https://www.wikidata.org/wiki/Q1140589> , <https://www.wikidata.org/wiki/Q911945> , <https://www.wikidata.org/wiki/Q1028548>, <https://www.wikidata.org/wiki/Q53110>, <https://www.wikidata.org/wiki/Q217250> ;
-   foaf:myersBriggs "INTP" .
+   foaf:based_near <https://www.wikidata.org/wiki/Q387047> ;
+   foaf:gender <https://www.wikidata.org/wiki/Q6581072> .
