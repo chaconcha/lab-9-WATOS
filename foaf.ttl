@@ -1,0 +1,26 @@
+@base <http://users.dcc.uchile.cl/~ahogan/foaf.ttl> .
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<> a foaf:Document ;
+   dc:date "2019-10-09"^^xsd:date ;
+   dc:title "Hannah's FOAF Profile"@en ;
+   foaf:primaryTopic <#hm> ;
+   dc:creator <#hm> .
+
+<#hm> a foaf:Person ;
+   rdfs:label "Hannah Montana" ;
+   rdfs:comment "Super estrella del pop"@es ;
+   foaf:name "Hannah Montana" ;
+   foaf:givenName "Hannah" ;
+   foaf:familyName "Montana" ;
+   foaf:age 26 ; # it would be better to put date of birth to not have to update every birthday, but hey :)
+   foaf:img <https://image.tmdb.org/t/p/w780/khRPSUBRPI1kGJyPZTpZYWy1M0M.jpg> ;
+   foaf:homepage <http://www.hannah-montana.com> ;
+   foaf:knows <http://users.dcc.uchile.cl/~ahogan/foaf.ttl#ah> ;
+   foaf:interest <https://www.wikidata.org/wiki/Q1140589> , <https://www.wikidata.org/wiki/Q911945> , <https://www.wikidata.org/wiki/Q1028548>, <https://www.wikidata.org/wiki/Q53110>, <https://www.wikidata.org/wiki/Q217250> ;
+   foaf:myersBriggs "INTP" .
